@@ -10,7 +10,7 @@ This Shiny app provides a user-friendly interface for:
 * Embedding subjects based on phenotypic traits or biological attributes
 * Visualizing meta-graph structure and exporting results for downstream analysis
 
----
+
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ This Shiny app provides a user-friendly interface for:
 * [Maintainers](#maintainers)
 * [License and Citation](#license-and-citation)
 
----
+
 
 ## Features
 
@@ -50,7 +50,7 @@ Users can upload subject-specific information (e.g., phenotypes, clinical values
 
 All results (node embeddings and subject embeddings) are available for download as CSV files.
 
----
+
 
 ## Installation
 
@@ -71,7 +71,7 @@ Rscript -e 'shiny::runApp()'
 
 > Alternatively, launch the app using `app.R` in an RStudio session.
 
----
+
 
 ## Getting Started
 
@@ -90,11 +90,11 @@ Once the app is running:
    * Click **Generate Subject Embeddings**.
 6. Download the resulting embeddings in CSV format.
 
----
+
 
 Based on the actual example files you provided, here is the revised **Input File Formats** section for your `README.md`:
 
----
+
 
 ## Input File Formats
 
@@ -114,7 +114,7 @@ This file should be in CSV, TSV, or Excel format, and must contain a column name
 
 You can find this example in: `example_data/example_node_ids.xlsx`
 
----
+
 
 ### 2. Subject Properties File (for subject embeddings)
 
@@ -135,7 +135,7 @@ These IDs should match valid node identifiers in SPOKE to enable correct embeddi
 
 You can find this example in: `example_data/example_subject_properties.xlsx`
 
----
+
 
 ## Resources and Documentation
 
@@ -148,7 +148,7 @@ You can find this example in: `example_data/example_subject_properties.xlsx`
 * **Project Source Code**:
   [https://github.com/Broccolito/KGEnE](https://github.com/Broccolito/KGEnE)
 
----
+
 
 ## Maintainers
 
@@ -160,7 +160,7 @@ You can find this example in: `example_data/example_subject_properties.xlsx`
 
 This project is actively maintained by the Baranzini Lab at UCSF.
 
----
+
 
 ## License and Citation
 
@@ -168,6 +168,6 @@ This software is made freely available for academic and non-commercial use. Lice
 
 If you use KGEnE in your work, please cite the upcoming manuscript or refer to the GitHub repository.
 
----
+
 
 Let me know if you want this `README.md` as a downloadable file or need a version with installation scripts included.
