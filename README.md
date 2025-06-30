@@ -136,6 +136,16 @@ These IDs should match valid node identifiers in SPOKE to enable correct embeddi
 You can find this example in: `example_data/example_subject_properties.xlsx`
 
 
+## Authors and Maintainers
+
+* **Wanjun Gu** (author and maintainer) 
+  Email: [wanjun.gu@ucsf.edu](mailto:wanjun.gu@ucsf.edu)
+
+* **Gianmarco Bellucci** (maintainer) 
+  Email: [gianmarco.bellucci@ucsf.edu](mailto:gianmarco.bellucci@ucsf.edu)
+
+This project is actively maintained by the Baranzini Lab at UCSF.
+
 
 ## Resources and Documentation
 
@@ -147,19 +157,6 @@ You can find this example in: `example_data/example_subject_properties.xlsx`
 
 * **Project Source Code**:
   [https://github.com/Broccolito/KGEnE](https://github.com/Broccolito/KGEnE)
-
-
-
-## Maintainers
-
-* **Wanjun Gu**
-  Email: [wanjun.gu@ucsf.edu](mailto:wanjun.gu@ucsf.edu)
-
-* **Gianmarco Bellucci**
-  Email: [gianmarco.bellucci@ucsf.edu](mailto:gianmarco.bellucci@ucsf.edu)
-
-This project is actively maintained by the Baranzini Lab at UCSF.
-
 
 
 ## License and Citation
