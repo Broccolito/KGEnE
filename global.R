@@ -2,7 +2,8 @@ software_version = "0.1"
 
 cran_packages = c(
   "data.table", "dplyr", "igraph", "shiny", "shinyWidgets", 
-  "visNetwork", "readxl", "writexl", "tools", "shinyjs"
+  "visNetwork", "readxl", "writexl", "tools", "shinyjs",
+  "shinythemes"
 )
 
 install_if_missing_cran = function(pkg){
@@ -16,17 +17,17 @@ message("Loading pacakges from CRAN...")
 invisible(lapply(cran_packages, install_if_missing_cran))
 
 message("Loading support functions...\n")
-source("select_subnetwork.R")
-source("generate_pagerank.R")
-source("generate_personalized_pagerank.R")
-source("format_bytes.R")
+source("R/select_subnetwork.R")
+source("R/generate_pagerank.R")
+source("R/generate_personalized_pagerank.R")
+source("R/format_bytes.R")
 
 message("Loading support datasets...")
 cat("\n")
-spoke_edges = fread("spoke/edges.tsv") |>
-  as.data.frame()
-spoke_nodes = fread("spoke/nodes.tsv") |>
-  as.data.frame()
+# spoke_edges = fread("spoke/edges.tsv") |>
+#   as.data.frame()
+# spoke_nodes = fread("spoke/nodes.tsv") |>
+#   as.data.frame()
 meta_graph = fread("meta_graph/meta_graph.csv") |>
   as.data.frame()
 example_node_id = read_excel("example_data/example_node_ids.xlsx")
